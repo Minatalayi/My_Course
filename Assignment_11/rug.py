@@ -1,14 +1,17 @@
+n=int(input("enter your number: "))
 
-def rug (num):
-   for i in range (num):
-        for j in range (num):
+if n<=0:
+    print("Invalid input")
+
+elif n % 2 == 1:
+      for i in range (n):
+        for j in range (n):
             if (i %2 !=0 or j %2 !=0 ):
                 print(" ☠️ ",end="")
             else:
                  print(" ☠️ ",end="")
         print()
 
-
-num = int(input("please enter just a odd number: "))
-
-rug(num)
+                
+elif n % 2 == 0:
+    print("please enter a odd number")
