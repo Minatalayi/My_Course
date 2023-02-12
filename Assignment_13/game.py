@@ -11,7 +11,7 @@ class game(arcade.Window):
     def __init__(self):
         super().__init__()
         arcade.set_background_color(arcade.color.SEA_BLUE)
-        self.background=arcade.load_texture("Assignment_13\۲۰۲۲۰۱۱۶_۱۵۲۸۴۴.jpg")
+        self.background=arcade.load_texture(":resources:images/backgrounds/abstract_1.jpg")
     
     
     #show
